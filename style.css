@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: #888;
+    padding: .4em;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    text-decoration: none;
+    padding: .2em;
+    margin: 0px .5em;
+    font-size: 1.5em;
+    color: white;
+}
+#container{
+    background-color: black;
+    padding: 2vw;
+    margin: auto;
+    width: fit-content;
+    margin-top: 2vh;
+    border-radius: 10px 10px 5px 5px;
+
+}
+h2{
+    text-align: center;
+    color: white;
+}
+textarea{
+    display: block;
+    margin: auto;
+    font-family: 'Sevillana', cursive;
+    padding: 10px;
+    background-color: antiquewhite;
+    font-size: 2em;
+}
+#save{
+    width: fit-content;
+    padding: 1em 1.8em;
+    background-color: green;
+    font-size: 1em;
+    color: wheat;
+    border-radius: 1em;
+}
+#Get{
+    display: none;
+    text-align: center;
+}
+#found{
+    display: block;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Sevillana', cursive;
+    padding: 2em;
+    background-color: antiquewhite;
+    font-size: 2em;
+}
+input{
+    max-width: 60%;
+    padding: .5em;
+    font: 1em sans-serif;
+}
+p{
+    font: 1em sans-serif;
+    padding: 1em;
+}
+#search{
+    padding: .2em 1em;
+    font: 1em sans-serif;
+}
